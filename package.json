@@ -1,0 +1,18 @@
+{
+  "name": "maxflow",
+  "private": true,
+  "version": "0.1.4",
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env apps/demo/dev.mjs",
+    "build": "pnpm --filter @infranic/light-canvas build && pnpm --filter @maxflow/demo build",
+    "build:canvas": "pnpm --filter @infranic/light-canvas build",
+    "typecheck": "pnpm -r typecheck",
+    "pack:canvas": "pnpm build:canvas && node scripts/pack-canvas.mjs",
+    "start": "node --env-file-if-exists=.env server/index.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "packageManager": "pnpm@9.15.9",
+  "license": "MIT"
+}
