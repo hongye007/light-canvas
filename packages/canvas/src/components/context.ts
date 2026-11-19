@@ -22,7 +22,7 @@ export const CanvasContext = createContext<CanvasContextValue | null>(null);
 
 export function useCanvasContext(): CanvasContextValue {
     const value = useContext(CanvasContext);
-    if (!value) throw new Error("[maxflow] canvas components must render inside <MaxFlowCanvas>");
+    if (!value) throw new Error("[maxflow] canvas components must render inside <LightCanvas>");
     return value;
 }
 

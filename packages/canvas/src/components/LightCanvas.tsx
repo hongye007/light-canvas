@@ -8,7 +8,7 @@ import { resolveTheme } from "../store/theme";
 import { useCanvasStore } from "../store/canvas-store";
 import type { CanvasDocument } from "../types";
 
-export type MaxFlowCanvasProps = {
+export type LightCanvasProps = {
     config: CanvasConfig;
     /** Extra node types, merged over the built-ins. */
     registry?: NodeRegistry;
@@ -26,14 +26,14 @@ export type MaxFlowCanvasProps = {
  * Public entry point.
  *
  * ```tsx
- * <MaxFlowCanvas
+ * <LightCanvas
  *   profile="full"
  *   config={{ producer, models }}
  *   onDocumentChange={(doc) => save(doc)}
  * />
  * ```
  */
-export function MaxFlowCanvas(props: MaxFlowCanvasProps): ReactNode {
+export function LightCanvas(props: LightCanvasProps): ReactNode {
     const { config, profile = "full", locale, theme, shell: overrides } = props;
     const [mode, setMode] = useState<CanvasThemeMode>(theme?.mode ?? "dark");
     const [lang, setLang] = useState<CanvasLocale["lang"]>(locale?.lang ?? "zh-CN");

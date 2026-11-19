@@ -37,7 +37,7 @@ pnpm pack:canvas
 npm install @infranic/light-canvas
 ```
 
-从源码打包会生成 `artifacts/infranic-light-canvas-0.1.4.tgz`。组件使用示例见 [英文 README](README.md#install-the-react-component)。
+从源码打包会生成 `artifacts/infranic-light-canvas-0.2.0.tgz`。组件使用示例见 [英文 README](README.md#install-the-react-component)。
 
 宿主可以通过 `shell` 逐项隐藏标题、撤销重做、主题、语言、节点列表、资产库、JSON 导入导出和设置。参数示例见 [界面可见性配置](README.md#configure-workspace-visibility)。
 

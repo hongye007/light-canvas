@@ -312,7 +312,7 @@ TaskEvent =
 **首选：库嵌入**
 
 ```tsx
-<MaxFlowCanvas
+<LightCanvas
   profile="full"
   documentId="project-123"
   bridge={bridge}

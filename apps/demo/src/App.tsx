@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { MaxFlowCanvas, createMockProducer, parseDocument, type CanvasDocument } from "@infranic/light-canvas";
+import { LightCanvas, createMockProducer, parseDocument, type CanvasDocument } from "@infranic/light-canvas";
 import { createHttpProducer, readBackendConfig, MOCK_MODELS } from "./backend";
 import { AssetLibrary } from "./AssetLibrary";
 import { archiveCanvasImages, cacheGeneratedAsset, restoreLocalAssets, uploadLocalAsset } from "./local-assets";
@@ -92,7 +92,7 @@ export function App() {
     if (!doc || backend === undefined) return null;
 
     return (
-        <MaxFlowCanvas
+        <LightCanvas
             key={doc.id}
             config={config}
             profile="full"

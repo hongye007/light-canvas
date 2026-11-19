@@ -8,7 +8,7 @@ export default defineConfig({
     build: {
         lib: {
             entry: resolve(__dirname, "src/index.ts"),
-            name: "MaxFlowCanvas",
+            name: "LightCanvas",
             formats: ["es"],
             fileName: "index",
         },

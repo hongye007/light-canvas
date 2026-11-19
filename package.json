@@ -1,7 +1,7 @@
 {
   "name": "maxflow",
   "private": true,
-  "version": "0.1.4",
+  "version": "0.2.0",
   "scripts": {
     "dev": "node --env-file-if-exists=.env apps/demo/dev.mjs",
     "build": "pnpm --filter @infranic/light-canvas build && pnpm --filter @maxflow/demo build",

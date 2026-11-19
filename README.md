@@ -53,7 +53,7 @@ To build a tarball from source, run `pnpm pack:canvas`. Release archives are als
 The ESM package includes JavaScript, TypeScript declarations, and a CSS entry point. A minimal React host can start with the bundled mock producer.
 
 ```tsx
-import { MaxFlowCanvas, createMockProducer } from "@infranic/light-canvas";
+import { LightCanvas, createMockProducer } from "@infranic/light-canvas";
 import "@infranic/light-canvas/styles.css";
 
 const config = {
@@ -67,7 +67,7 @@ const config = {
 export function Workspace() {
     return (
         <div style={{ position: "relative", height: "80vh" }}>
-            <MaxFlowCanvas config={config} locale={{ lang: "en-US" }} theme={{ mode: "dark" }} />
+            <LightCanvas config={config} locale={{ lang: "en-US" }} theme={{ mode: "dark" }} />
         </div>
     );
 }
@@ -82,7 +82,7 @@ Use `onDocumentChange` to persist the document, `initialDocument` to load it, an
 Use the `shell` prop to hide individual controls while keeping the rest of the workspace.
 
 ```tsx
-<MaxFlowCanvas
+<LightCanvas
     config={config}
     shell={{
         showTitle: false,

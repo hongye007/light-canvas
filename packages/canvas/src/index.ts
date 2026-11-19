@@ -1,4 +1,4 @@
-export { MaxFlowCanvas, type MaxFlowCanvasProps } from "./components/MaxFlowCanvas";
+export { LightCanvas, type LightCanvasProps } from "./components/LightCanvas";
 export { NodeRegistry, builtinRegistry } from "./lib/registry";
 export { createMockProducer, createOpenAICompatibleProducer, type OpenAICompatibleOptions } from "./ai/producers";
 export { createTranslator, zhCN, enUS } from "./lib/i18n";
