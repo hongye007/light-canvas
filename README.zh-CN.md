@@ -4,6 +4,12 @@
 
 Light Canvas 是可以嵌入 React 项目的轻量无限画布，支持将文本、图片和视频节点连成工作流。宿主提供模型、生成 API 和持久化方式。
 
+## 在线演示
+
+[打开 Light Canvas 演示](https://hongye007.github.io/light-canvas/)，可以连线、添加参考素材，以及体验模拟文生图和文本生成。演示直接在浏览器运行，无需 API 密钥。
+
+[![Light Canvas 演示中的文本、图片和视频节点](docs/images/light-canvas-demo.png)](https://hongye007.github.io/light-canvas/)
+
 ## 本地运行
 
 需要 Node.js 22.12 或更高版本及 pnpm 9。

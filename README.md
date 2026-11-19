@@ -4,6 +4,12 @@
 
 Light Canvas is a lightweight, embeddable React infinite canvas for connecting text, image, and video nodes. The canvas owns the editing experience. The host supplies the models, API access, and persistence.
 
+## Live demo
+
+[Open the Light Canvas demo](https://hongye007.github.io/light-canvas/) to connect nodes, add references, and try mock image and text generation. The demo runs in the browser without an API key.
+
+[![Light Canvas demo showing connected text, image, and video nodes](docs/images/light-canvas-demo.png)](https://hongye007.github.io/light-canvas/)
+
 ## Run the workspace
 
 Requires Node.js 22.12 or later and pnpm 9.

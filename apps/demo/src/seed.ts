@@ -2,7 +2,7 @@ import { createEmptyDocument, createId, createMediaNode, createTextNode, type Ca
 
 /** A small, realistic canvas so the demo opens with something to look at. */
 export function buildDemoDocument(compact = false): CanvasDocument {
-    const base = createEmptyDocument("MaxFlow");
+    const base = createEmptyDocument("Light Canvas");
     const text = createTextNode({ x: 0, y: 0 },
         "深夜的城市天台，霓虹灯把雨水照成彩色。一个穿风衣的人站在栏杆边，镜头缓慢推近。",
     );

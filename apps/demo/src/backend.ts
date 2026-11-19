@@ -10,6 +10,7 @@ export const MOCK_MODELS: ModelInfo[] = [
 ];
 
 export async function readBackendConfig(signal: AbortSignal): Promise<BackendConfig | null> {
+    if (import.meta.env.VITE_STATIC_DEMO === "true") return null;
     const response = await fetch("/api/config", { signal, cache: "no-store" });
     if (!response.ok || !response.headers.get("content-type")?.includes("application/json")) return null;
     const config = await response.json() as BackendConfig;
