@@ -12,9 +12,9 @@
 
 ## 宣传视频
 
-[![Light Canvas 宣传片预览](docs/images/light-canvas-promo.jpg)](https://hongye007.github.io/light-canvas/promo/)
+[![Light Canvas 宣传片预览](docs/images/light-canvas-promo.jpg)](https://github.com/hongye007/light-canvas/releases/download/v0.2.1/light-canvas-promo-en-bgm.mp4)
 
-[观看英文宣传片 · 37 秒](https://hongye007.github.io/light-canvas/promo/)
+[观看英文宣传片 · 37 秒](https://github.com/hongye007/light-canvas/releases/download/v0.2.1/light-canvas-promo-en-bgm.mp4)
 
 ## 在线演示
 

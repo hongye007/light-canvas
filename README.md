@@ -12,9 +12,9 @@
 
 ## Promo video
 
-[![Light Canvas promo preview](docs/images/light-canvas-promo.jpg)](https://hongye007.github.io/light-canvas/promo/)
+[![Light Canvas promo preview](docs/images/light-canvas-promo.jpg)](https://github.com/hongye007/light-canvas/releases/download/v0.2.1/light-canvas-promo-en-bgm.mp4)
 
-[Watch the promo · 37 seconds](https://hongye007.github.io/light-canvas/promo/)
+[Watch the promo · 37 seconds](https://github.com/hongye007/light-canvas/releases/download/v0.2.1/light-canvas-promo-en-bgm.mp4)
 
 ## Live demo
 
