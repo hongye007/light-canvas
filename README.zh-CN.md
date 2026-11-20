@@ -1,6 +1,8 @@
 # Light Canvas
 
-<img src="docs/images/light-canvas-icon.png" alt="Light Canvas 图标" width="72" height="72" />
+<p align="center">
+  <img src="docs/images/light-canvas-icon.png" alt="Light Canvas 图标" width="72" height="72" />
+</p>
 
 开箱即用的轻量无限画布，可嵌入 React 项目，把文本、图片和视频连成工作流。
 

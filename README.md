@@ -1,6 +1,8 @@
 # Light Canvas
 
-<img src="docs/images/light-canvas-icon.png" alt="Light Canvas icon" width="72" height="72" />
+<p align="center">
+  <img src="docs/images/light-canvas-icon.png" alt="Light Canvas icon" width="72" height="72" />
+</p>
 
 A lightweight, embeddable React infinite canvas for connecting text, image, and video nodes.
 
