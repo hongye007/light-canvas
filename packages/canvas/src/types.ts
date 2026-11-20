@@ -276,6 +276,8 @@ export type CanvasConfig = {
     defaultQuality?: Quality;
     defaultModels?: Partial<Record<"text" | "image" | "video", string>>;
     renderAssetLibrary?: (lang: CanvasLocale["lang"], onSelect?: (asset: Asset) => void) => ReactNode;
+    /** Host-supplied items below the settings button in the sidebar. */
+    renderRailFooter?: (lang: CanvasLocale["lang"]) => ReactNode;
     renderSettings?: (lang: CanvasLocale["lang"]) => ReactNode;
     /** Persist key owned by the host; the canvas itself never writes storage. */
     persistKey?: string | null;

@@ -1,14 +1,15 @@
 import { Download, Images, ListTree, Settings, Upload } from "lucide-react";
-import { useRef } from "react";
+import { useRef, type ReactNode } from "react";
 import { useCanvasContext } from "./context";
 
-export function Rail({ onNodes, onAssets, drawer, onImport, onExport, onSettings }: {
+export function Rail({ onNodes, onAssets, drawer, onImport, onExport, onSettings, footer }: {
     onNodes: () => void;
     onAssets?: () => void;
     drawer: "nodes" | "assets" | null;
     onImport: (text: string) => void | Promise<void>;
     onExport: () => void;
     onSettings?: () => void;
+    footer?: ReactNode;
 }) {
     const { t, toast, shell } = useCanvasContext();
     const fileInput = useRef<HTMLInputElement>(null);
@@ -44,6 +45,7 @@ export function Rail({ onNodes, onAssets, drawer, onImport, onExport, onSettings
             {shell.showSettings && onSettings && <button type="button" className="mf-rail-btn mf-rail-settings" aria-label={t("toolbar.settings")} title={t("toolbar.settings")} onClick={onSettings}>
                 <Settings size={17} aria-hidden />
             </button>}
+            {footer}
         </aside>
     );
 }

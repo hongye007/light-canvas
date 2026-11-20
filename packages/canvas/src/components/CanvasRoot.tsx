@@ -579,6 +579,7 @@ export function CanvasRoot({ externalDocument, notifications }: { externalDocume
                         store.load(config.restoreImportedAssets ? await config.restoreImportedAssets(imported) : imported);
                     }}
                     onExport={() => downloadDocument(doc)}
+                    footer={config.renderRailFooter?.(lang)}
                     onSettings={config.renderSettings ? () => setSettingsOpen(true) : undefined}
                 />}
                 {shell.rail && drawer && (drawer === "nodes" ? shell.showNodes : shell.showAssets) && (

@@ -1,3 +1,4 @@
+import { Github } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { LightCanvas, createMockProducer, parseDocument, type CanvasDocument } from "@infranic/light-canvas";
 import { createHttpProducer, readBackendConfig, MOCK_MODELS } from "./backend";
@@ -78,6 +79,13 @@ export function App() {
             producer,
             models: backend?.descriptors.length ? backend.descriptors : MOCK_MODELS,
             renderAssetLibrary: (lang: "zh-CN" | "en-US", onSelect?: Parameters<typeof AssetLibrary>[0]["onSelect"]) => <AssetLibrary lang={lang} onSelect={onSelect} />,
+            renderRailFooter: (lang: "zh-CN" | "en-US") => {
+                const label = lang === "zh-CN" ? "在 GitHub 上查看 Light Canvas" : "View Light Canvas on GitHub";
+                return <a className="mf-rail-btn" href="https://github.com/hongye007/light-canvas"
+                    target="_blank" rel="noopener noreferrer" aria-label={label} title={label}>
+                    <Github size={17} aria-hidden />
+                </a>;
+            },
             renderSettings: (lang: "zh-CN" | "en-US") => {
                 const chinese = lang === "zh-CN";
                 const models = backend?.descriptors.length ? backend.descriptors : MOCK_MODELS;

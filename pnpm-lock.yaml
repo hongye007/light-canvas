@@ -17,6 +17,9 @@ importers:
       '@infranic/light-canvas':
         specifier: workspace:*
         version: link:../../packages/canvas
+      lucide-react:
+        specifier: ^0.545.0
+        version: 0.545.0(react@19.3.1)
       react:
         specifier: ^19.1.1
         version: 19.3.1
