@@ -1,12 +1,14 @@
-# Light Canvas
-
 <p align="center">
   <img src="docs/images/light-canvas-icon.png" alt="Light Canvas 图标" width="72" height="72" />
 </p>
 
-开箱即用的轻量无限画布，可嵌入 React 项目，把文本、图片和视频连成工作流。
+<h1 align="center">Light Canvas</h1>
 
-[在线演示](https://hongye007.github.io/light-canvas/) · [npm 安装包](https://www.npmjs.com/package/@infranic/light-canvas) · [English](README.md)
+<p align="center">开箱即用的轻量无限画布，可嵌入 React 项目，把文本、图片和视频连成工作流。</p>
+
+<p align="center">
+  <a href="https://hongye007.github.io/light-canvas/">在线演示</a> · <a href="https://www.npmjs.com/package/@infranic/light-canvas">npm 安装包</a> · <a href="README.md">English</a>
+</p>
 
 ## 在线演示
 

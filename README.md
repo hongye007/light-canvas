@@ -1,12 +1,14 @@
-# Light Canvas
-
 <p align="center">
   <img src="docs/images/light-canvas-icon.png" alt="Light Canvas icon" width="72" height="72" />
 </p>
 
-A lightweight, embeddable React infinite canvas for connecting text, image, and video nodes.
+<h1 align="center">Light Canvas</h1>
 
-[Try the demo](https://hongye007.github.io/light-canvas/) · [npm package](https://www.npmjs.com/package/@infranic/light-canvas) · [简体中文](README.zh-CN.md)
+<p align="center">A lightweight, embeddable React infinite canvas for connecting text, image, and video nodes.</p>
+
+<p align="center">
+  <a href="https://hongye007.github.io/light-canvas/">Try the demo</a> · <a href="https://www.npmjs.com/package/@infranic/light-canvas">npm package</a> · <a href="README.zh-CN.md">简体中文</a>
+</p>
 
 ## Live demo
 
