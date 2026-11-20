@@ -16,6 +16,8 @@
 
 [![Light Canvas demo showing connected text, image, and video nodes](docs/images/light-canvas-demo-en.png)](https://hongye007.github.io/light-canvas/)
 
+[Watch the demo video (Chinese)](https://youtu.be/HyWiI4yi5Bg)
+
 ## Built with Light Canvas
 
 OpenWeGo is a platform for AI creative inspiration and tools, offering completely free image generation, image editing, and prompt refinement. Its Infinite Canvas uses Light Canvas to connect prompts, reference media, and generation results in a visual workflow. [Open the OpenWeGo Infinite Canvas](https://openwego.com/tools/infinite-canvas)
