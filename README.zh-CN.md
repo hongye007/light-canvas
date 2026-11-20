@@ -10,12 +10,6 @@
   <a href="https://hongye007.github.io/light-canvas/">在线演示</a> · <a href="https://www.npmjs.com/package/@infranic/light-canvas">npm 安装包</a> · <a href="README.md">English</a>
 </p>
 
-## 宣传视频
-
-[![Light Canvas 宣传片预览](docs/images/light-canvas-promo.jpg)](https://github.com/hongye007/light-canvas/releases/download/v0.2.1/light-canvas-promo-en-bgm.mp4)
-
-[观看英文宣传片 · 37 秒](https://github.com/hongye007/light-canvas/releases/download/v0.2.1/light-canvas-promo-en-bgm.mp4)
-
 ## 在线演示
 
 [打开 Light Canvas 演示](https://hongye007.github.io/light-canvas/)，可以连线、添加参考素材，以及体验模拟文生图和文本生成。演示直接在浏览器运行，无需 API 密钥。
