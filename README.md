@@ -22,6 +22,10 @@
 
 [![Light Canvas demo showing connected text, image, and video nodes](docs/images/light-canvas-demo-en.png)](https://hongye007.github.io/light-canvas/)
 
+## Built with Light Canvas
+
+OpenWeGo is an AI creative toolkit for generating and editing images and refining prompts. Its Infinite Canvas uses Light Canvas to connect prompts, reference media, and generation results in a visual workflow. [Open the OpenWeGo Infinite Canvas](https://openwego.com/tools/infinite-canvas)
+
 ## Install the React component
 
 Install the public package in your React project.

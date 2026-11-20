@@ -22,6 +22,10 @@
 
 [![Light Canvas 演示中的文本、图片和视频节点](docs/images/light-canvas-demo-zh.png)](https://hongye007.github.io/light-canvas/)
 
+## 集成案例
+
+OpenWeGo 是一个 AI 创作工具平台，提供图片生成、图片编辑和提示词优化。它的自由画布用 Light Canvas 把提示词、参考素材和生成结果连成可视化工作流。[体验 OpenWeGo 自由画布](https://openwego.com/tools/infinite-canvas)
+
 ## 安装 React 组件
 
 在 React 项目中安装 npm 包。
