@@ -18,7 +18,7 @@
 
 ## Built with Light Canvas
 
-OpenWeGo is an AI creative toolkit for generating and editing images and refining prompts. Its Infinite Canvas uses Light Canvas to connect prompts, reference media, and generation results in a visual workflow. [Open the OpenWeGo Infinite Canvas](https://openwego.com/tools/infinite-canvas)
+OpenWeGo is a platform for AI creative inspiration and tools, offering completely free image generation, image editing, and prompt refinement. Its Infinite Canvas uses Light Canvas to connect prompts, reference media, and generation results in a visual workflow. [Open the OpenWeGo Infinite Canvas](https://openwego.com/tools/infinite-canvas)
 
 ## Install the React component
 

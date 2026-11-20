@@ -18,7 +18,7 @@
 
 ## 集成案例
 
-OpenWeGo 是一个 AI 创作工具平台，提供图片生成、图片编辑和提示词优化。它的自由画布用 Light Canvas 把提示词、参考素材和生成结果连成可视化工作流。[体验 OpenWeGo 自由画布](https://openwego.com/tools/infinite-canvas)
+OpenWeGo 是一个 AI 创作灵感和工具平台，提供完全免费的图片生成、图片编辑和提示词优化。它的自由画布用 Light Canvas 把提示词、参考素材和生成结果连成可视化工作流。[体验 OpenWeGo 自由画布](https://openwego.com/tools/infinite-canvas)
 
 ## 安装 React 组件
 
