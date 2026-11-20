@@ -78,6 +78,17 @@ export function App() {
             producer,
             models: backend?.descriptors.length ? backend.descriptors : MOCK_MODELS,
             renderAssetLibrary: (lang: "zh-CN" | "en-US", onSelect?: Parameters<typeof AssetLibrary>[0]["onSelect"]) => <AssetLibrary lang={lang} onSelect={onSelect} />,
+            renderSettings: (lang: "zh-CN" | "en-US") => {
+                const chinese = lang === "zh-CN";
+                const models = backend?.descriptors.length ? backend.descriptors : MOCK_MODELS;
+                return <div className="workspace-demo-settings">
+                    <p>{backend?.descriptors.length
+                        ? (chinese ? "生成请求由服务端处理。" : "Generation requests run on the backend.")
+                        : (chinese ? "当前使用模拟生成，可直接体验画布。" : "This demo uses mock generation.")}</p>
+                    <h3>{chinese ? "可用模型" : "Available models"}</h3>
+                    <ul>{models.map(model => <li key={model.id}>{model.label}</li>)}</ul>
+                </div>;
+            },
             defaultRatio: "3:4" as const,
             defaultQuality: "standard" as const,
             restoreImportedAssets: restoreLocalAssets,

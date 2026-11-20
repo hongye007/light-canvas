@@ -121,6 +121,9 @@ Use `showUndo` and `showRedo` to hide history buttons individually, and `showNod
 
 Set `config.defaultModels` to choose defaults per node type. Use `config.renderSettings` to supply your own settings view. Model IDs and default selections supplied to the component are visible to its browser users. Store API credentials on your backend and inject an authenticated producer or adapter.
 
+
+The demo uses this hook to show its generation mode and available models. The canvas owns the settings button and dialog, and the host supplies the dialog contents. The button appears when the settings control is enabled and a render callback is provided.
+
 ## Development checks
 
 ```bash

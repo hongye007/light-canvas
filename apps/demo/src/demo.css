@@ -36,3 +36,13 @@
 }
 
 .workspace-asset-tile[draggable="true"] { cursor: grab; }
+
+.workspace-demo-settings h3 {
+    margin-block: 16px 6px;
+    font-size: 14px;
+}
+
+.workspace-demo-settings p,
+.workspace-demo-settings ul {
+    margin-block: 0;
+}
