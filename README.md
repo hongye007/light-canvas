@@ -10,6 +10,12 @@
   <a href="https://hongye007.github.io/light-canvas/">Try the demo</a> · <a href="https://www.npmjs.com/package/@infranic/light-canvas">npm package</a> · <a href="README.zh-CN.md">简体中文</a>
 </p>
 
+## Promo video
+
+[![Light Canvas promo preview](docs/images/light-canvas-promo.jpg)](https://hongye007.github.io/light-canvas/promo/)
+
+[Watch the promo · 37 seconds](https://hongye007.github.io/light-canvas/promo/)
+
 ## Live demo
 
 [Open the Light Canvas demo](https://hongye007.github.io/light-canvas/) to connect nodes, add references, and try mock image and text generation. The demo runs in the browser without an API key.
